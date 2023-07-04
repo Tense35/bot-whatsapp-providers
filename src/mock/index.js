@@ -1,4 +1,4 @@
-const { ProviderClass } = require('../../../bot')
+const { ProviderClass } = require('../bot')
 
 function delay(ms) {
     return new Promise((res) => setTimeout(res, ms))

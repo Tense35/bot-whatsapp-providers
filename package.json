@@ -1,6 +1,7 @@
 {
-    "name": "@bot-whatsapp/provider-meta",
-    "version": "0.0.113-alpha.0",
+    "name": "bot-whatsapp-provider-meta",
+    "version": "1.0.2",
+    "private": false,
     "description": "Esto es el conector a Twilio, Meta con una ligera modificación sobre el proveedor de Meta que permite capturar la respuesta generada a partir de un botón de una plantilla. Código original: https://github.com/codigoencasa/bot-whatsapp/tree/main/packages/provider",
     "main": "./lib/mock/index.cjs",
     "keywords": [],
@@ -20,6 +21,9 @@
         "rimraf": "^3.0.2",
         "sharp": "^0.30.5"
     },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.2"
+    },
     "exports": {
         "./mock": "./lib/mock/index.cjs",
         "./twilio": "./lib/twilio/index.cjs",
@@ -31,6 +35,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/codigoencasa/bot-whatsapp/tree/main/packages/provider"
+        "url": "git://github.com/Tense35/bot-whatsapp-providers.git"
     }
 }

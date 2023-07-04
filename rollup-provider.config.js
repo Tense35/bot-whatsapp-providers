@@ -1,4 +1,4 @@
-const banner = require('../../config/banner.rollup.json')
+const banner = require('./banner.rollup.json')
 const { join } = require('path')
 const commonjs = require('@rollup/plugin-commonjs')
 
